@@ -1,10 +1,10 @@
-import { Counter } from "./features/counter/Counter";
+import { Counter } from "../features/counter/Counter";
 import { ThemeProvider } from "styled-components";
-import light from "./styles/themes/light";
-import dark from "./styles/themes/dark";
-import { GlobalStyles } from "./styles/global";
+import light from "../styles/themes/light";
+import dark from "../styles/themes/dark";
+import { GlobalStyles } from "../styles/global";
 import { BrowserRouter } from "react-router-dom";
-import Router from "./pages/router";
+import Router from "../pages/router";
 
 function App() {
   // const theme = useContext(theme)
