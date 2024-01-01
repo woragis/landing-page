@@ -1,19 +1,76 @@
-import { HomePageComponent } from "../../../types/router.types";
-import { StyledAbout } from "./style";
+import { HomePageComponent } from "../../types/router.types";
+import { BackendStack, FrontendStack, StyledAbout } from "./style";
+import {
+  FaHtml5,
+  FaCss3,
+  FaReact,
+  FaPhp,
+  FaJs,
+  FaNodeJs,
+} from "react-icons/fa6";
+import { SiExpress, SiGraphql, SiRedux } from "react-icons/si";
 
 const About: HomePageComponent = () => {
   return (
-    <StyledAbout id='about-me top'>
-      <div id='photo'>
-        <div id='image'>
-          <img src='https://avatars.githubusercontent.com/u/79119700?v=4' alt='Photo of Jezreel' />
+    <StyledAbout className="about-me" id="about-me top">
+      <div id="photo"></div>
+      <div id="me">
+        <div id="name">
+          <h2>Jezreel de Andrade</h2>
         </div>
-        <h3>Jezreel de Andrade</h3>
-      </div>
-      <div className='me'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, architecto recusandae! Voluptatem, labore suscipit sequi repudiandae beatae corporis
-        facilis aperiam accusantium unde distinctio, blanditiis eveniet sapiente aliquid totam? Odit dicta sit esse! Corporis vel facere quas quod cupiditate
-        aspernatur sed facilis doloribus maxime tempora. Cupiditate dolorum voluptates incidunt natus laboriosam?
+        <div id="description-me">
+          Autodidata, programador
+          <p>
+            colocar efeito paralax fazer stack aparecer do lado direito em
+            fade-in
+          </p>
+        </div>
+        <FrontendStack className="frontend">
+          <h2>Frontend Stack</h2>
+          <div className="stack">
+            <FaHtml5 />
+            <p>HTML5</p>
+          </div>
+          <div className="stack">
+            <FaCss3 />
+            <p>CSS3</p>
+          </div>
+          <div className="stack">
+            <FaJs />
+            <p>JAVASCRIPT</p>
+          </div>
+          <div className="stack">
+            <FaReact />
+            <p>REACT</p>
+          </div>
+          <div className="stack">
+            <SiRedux />
+            <p>REDUX</p>
+          </div>
+          <div className="stack">
+            <SiGraphql />
+            <p>GRAPHQL</p>
+          </div>
+        </FrontendStack>
+        <BackendStack className="backend">
+          <h2>Backend Stack</h2>
+          <div className="stack">
+            <FaNodeJs />
+            <p>NodeJs</p>
+          </div>
+          <div className="stack">
+            <SiExpress />
+            <p>Express</p>
+          </div>
+          <div className="stack">
+            <FaPhp />
+            <p>PHP</p>
+          </div>
+          <div className="stack">
+            <SiGraphql />
+            <p>GraphQl</p>
+          </div>
+        </BackendStack>
       </div>
     </StyledAbout>
   );
