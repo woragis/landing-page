@@ -10,7 +10,6 @@ const Home: HomePageComponent = () => {
     <HomeBody>
       {/* <Header /> */}
       <h1>Home</h1>
-      <About />
       {/*<Projects />
       <Footer /> */}
     </HomeBody>
@@ -18,3 +17,4 @@ const Home: HomePageComponent = () => {
 };
 
 export default Home;
+// <About />

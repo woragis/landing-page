@@ -1,4 +1,4 @@
-import { HomePageComponent } from "../../../types/router.types";
+import { HomePageComponent } from "../../types/router.types";
 import { StyledHeader, StyledHeaderNav } from "./style";
 
 const Header: HomePageComponent = () => {

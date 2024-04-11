@@ -1,4 +1,3 @@
-import { Counter } from "../features/counter/Counter";
 import { ThemeProvider } from "styled-components";
 import light from "../styles/themes/light";
 import dark from "../styles/themes/dark";
