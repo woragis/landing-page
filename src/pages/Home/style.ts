@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomeBody = styled.div`
+export const StyledHome = styled.div`
   font-family: sans-serif;
   height: 800px;
   width: 100%;

@@ -15,7 +15,7 @@ const Header: HomePageComponent = () => {
     );
   });
   let logoSrc = "src/assets/jezreel-logo-light.png";
-  logoSrc = "/home/woragis/.dvlpmnt/web/frontend/landing-page/src/assets/jezreel-logo-light.png";
+  logoSrc = "./../../assets/jezreel-logo-light.png";
 
   // logoSrc = path.join(__dirname + "../../../assets/jezreel-logo-light.png");
   return (
