@@ -1,8 +1,9 @@
-import React from "react";
+import { FC } from "react";
+
 export interface Pages {
   title: string;
   path: string;
-  element: React.FC | any;
+  element: FC | any;
 }
 
 export interface HomePageComponent {
